@@ -195,7 +195,7 @@ According to the implemented control strategy, the PVT-collector loads the buffe
 The PVT collectors were modeled separately, as the electrical and thermal output are mostly independent of each other (the effect of cooling the PV modules to raise their efficiency was neglected). The solar PV panels model with orientation from the Buildings library (\citet{Wetter2014}) was used and parameterized with data from the manufacturer. The red PV panels have a reported efficiency of around 18\%. Equation \ref{eq:solpv_model} illustrates the calculation the PV panels power ($P_{PV}$) as a function of the total solar irradiation ($I$), the panels' surface ($A_{PV}$), the effective cell area ($f_a$) and the panels' efficiency ($\eta$).\\
 \vspace{-1pt}
 \begin{equation}
-\dot{P}_{PV} = A_{PV} \cdot  f_{a} \cdot \eta \cdot I
+P_{PV} = A_{PV} \cdot  f_{a} \cdot \eta \cdot I
 \label{eq:solpv_model}
 \end{equation}
 
